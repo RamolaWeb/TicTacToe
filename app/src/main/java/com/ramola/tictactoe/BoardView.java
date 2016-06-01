@@ -103,7 +103,7 @@ public class BoardView extends View {
         int selfy = y / factorY;
         point p = new point(selfx, selfy);
         if (player1.isHasPlayed()) {
-            
+
             if (!player2.list.contains(p) && !player1.list.contains(p)) {
                 player1.setHasPlayed(false);
                 player2.setHasPlayed(true);
